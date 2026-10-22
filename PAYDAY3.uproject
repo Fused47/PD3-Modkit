@@ -1,34 +1,42 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "{2B68A379-4BB6-1962-6BF8-9B980B89A4CF}",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "PAYDAY3",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "Suzie",
-			"Enabled": true
-		},
-		{
-			"Name": "BinkMedia",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayAbilities",
-			"Enabled": true
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "{D1402A83-4FCD-2BDF-AB25-44AE59FD00B1}",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "PAYDAY3",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true
+    },
+    {
+      "Name": "Suzie",
+      "Enabled": true
+    },
+    {
+      "Name": "BinkMedia",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "VisualStudioTools",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64"
+      ]
+    }
+  ],
+  "TargetPlatforms": [],
+  "AdditionalRootDirectories": [],
+  "AdditionalPluginDirectories": [],
+  "EpicSampleNameHash": ""
 }
